@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CAPTCHA Settings feature.
+ */
+
+include_once('captcha_settings.features.inc');
