@@ -80,3 +80,7 @@ body.front .field-name-field-image {
 .region-content {
   overflow: hidden;
 }
+
+#search-form input#edit-keys, #block-search-form .form-item-search-block-form input {
+  width: 8.9em;
+}
