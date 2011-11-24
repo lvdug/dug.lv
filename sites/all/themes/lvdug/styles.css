@@ -77,3 +77,6 @@ body.front .field-name-field-image {
     width: 220px;
 }
 
+.region-content {
+  overflow: hidden;
+}
