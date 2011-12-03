@@ -5048,6 +5048,7 @@ function drupal_cron_run() {
       // Do not let an exception thrown by one module disturb another.
       try {
         module_invoke($module, 'cron');
+        watchdog('cron', "Ran @module's cron.", array('@module' => $module), WATCHDOG_NOTICE);
       }
       catch (Exception $e) {
         watchdog_exception('cron', $e);
