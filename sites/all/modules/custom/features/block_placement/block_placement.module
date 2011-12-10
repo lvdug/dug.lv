@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Block Placement feature.
+ */
+
+include_once('block_placement.features.inc');
