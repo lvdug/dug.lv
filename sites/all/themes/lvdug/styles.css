@@ -58,7 +58,7 @@ body {
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
-.region-sidebar-first {
+.region-sidebar-first, .region-sidebar-second {
     padding-top: 15px;
 }
 h1.title {
@@ -76,11 +76,12 @@ body.front .field-name-field-image {
     margin: 0 20px 20px 0;
     width: 220px;
 }
-
+/*  Narrow the search input field in a block display, to get the search button on the same line.  */
+#block-search-form .form-item-search-block-form input {
+    width: 8.8em;
+}
+/*  Prevent embedded images etc. from breaking out of the main content region.  */
 .region-content {
-  overflow: hidden;
+    overflow: hidden;
 }
 
-#search-form input#edit-keys, #block-search-form .form-item-search-block-form input {
-  width: 8.9em;
-}
