@@ -1,0 +1,493 @@
+
+/* ---------- Overall Specifications ---------- */
+
+h1 {
+  color: #d7d7d7;
+}
+code {
+  background-color: #f2f2f2;
+  background-color: rgba(40, 40, 0, 0.06);
+}
+
+kbd {
+  background-color: #f2f2f2;
+  border: 1px outset #575757;
+  color: #666;
+}
+pre {
+  background-color: #f2f2f2;
+  background-color: rgba(40, 40, 0, 0.06);
+}
+li a.active {
+  color: #DDD;
+}
+ul li.collapsed {
+  list-style-image: url(../images/menu-collapsed.png);
+}
+ul li.expanded {
+  list-style-image: url(../images/menu-expanded.png);
+}
+
+/* ------------------ Reset Styles ------------------ */
+
+blockquote {
+  background: #151515;
+  border-left: 1px solid #666; /* LTR */
+}
+blockquote:before {
+  color: #bbb;
+}
+blockquote:after {
+  color: #bbb;
+}
+
+/* ------------------ Table Styles ------------------ */
+
+table tr th {
+  background: #333;
+}
+table tr th,
+table tr th a,
+table tr th a:hover {
+  color: #FFF;
+}
+tr td,
+tr th {
+  border: 1px solid #555;
+}
+#footer-wrapper tr td,
+#footer-wrapper tr th {
+  border-color: #555;
+  border-color: rgba(255, 255, 255, 0.18);
+}
+tr.odd {
+  background: #222;
+  background: rgba(0, 0, 0, 0.18);
+}
+tr,
+tr.even {
+  background: #262626;
+  background: rgba(0, 0, 0, 0.063);
+}
+
+/* ------------------ Header ------------------ */
+
+#skip-link a,
+#skip-link a:link,
+#skip-link a:visited {
+  background: #444;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+#site-name {
+  color: #686868;
+}
+/* Region header blocks. */
+.region-header .form-text {
+  background: #fefefe;
+  background: rgba(255, 255, 255, 0.7);
+  border-color: #ccc;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.region-header .form-text:hover,
+.region-header .form-text:focus,
+.region-header .form-text:active {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+}
+.region-header .form-required {
+  color: #eee;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Region header block menus. */
+.region-header .block-menu {
+  border: 1px solid;
+  border-color: #eee;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.region-header .block-menu li a {
+  border-bottom: 1px solid;
+  border-bottom-color: #eee;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+.region-header .block-menu li a:hover,
+.region-header .block-menu li a:focus,
+.region-header .block-menu li a:active {
+  background: rgba(255, 255, 255, 0.15);
+}
+/* User Login block in the header region */
+.region-header #block-user-login input.form-submit {
+  background: #eee;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid;
+  border-color: #ccc;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.region-header #block-user-login input.form-submit:hover,
+.region-header #block-user-login input.form-submit:focus {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* --------------- Main Menu ------------ */
+
+#main-menu-links a {
+  color: #d7d7d7;
+}
+#main-menu-links a {
+  background: #222;
+  background: rgba(38, 38, 38, 0.7);
+  color: #ddd;
+  text-shadow: 0 1px #000;
+}
+#main-menu-links a:hover,
+#main-menu-links a:focus,
+#main-menu-links a:active {
+  background: #252525;
+  background: rgba(39, 39, 39, 0.95);
+}
+.featured #main-menu-links li a:active,
+.featured #main-menu-links li a.active {
+  background: #333;
+  background: rgba(51, 51, 51, 1.0);
+}
+
+/* ----------------- Featured ----------------- */
+
+#featured {
+  background: #333;
+  background: rgba(180, 180, 180, 0.08);
+  border-bottom: 1px solid #666;
+  text-shadow: 1px 1px #000;
+}
+
+/* --------------- Highlighted ---------------- */
+
+#highlighted {
+  border-bottom: 1px solid #666;
+}
+
+/* ------------------- Help ------------------- */
+
+.region-help {
+  border: 1px solid #777;
+}
+
+/* ----------------- Content ------------------ */
+
+.node-teaser h2 a {
+  color: #FFFEFF;
+}
+.node-teaser {
+  border-bottom: 1px solid #444;
+}
+.node-sticky {
+  background: #333;
+  background: rgba(255, 255, 255, 0.024);
+  border: 1px solid #444;
+}
+.node-full {
+  background: none;
+  border: none;
+}
+.meta {
+  color: #9a9a9a;
+}
+ul.links {
+  color: #68696b;
+}
+.node-unpublished .comment-text .comment-arrow {
+  border-left: 1px solid #292929;
+  border-right: 1px solid #292929;
+}
+
+/* ----------------- Comments ----------------- */
+
+.comment .attribution img {
+  border: 1px solid #444;
+  margin: 0;
+}
+.comment .submitted .comment-time {
+  color: #9a9a9a;
+  font-size: 0.786em;
+}
+.comment .comment-arrow {
+  background: url(../images/comment-arrow.gif) no-repeat 0 center transparent; /* LTR */
+}
+.comment .comment-text {
+  border: 1px solid #666;
+}
+.comment-unpublished .comment-text .comment-arrow {
+  border-left: 1px solid #292929;
+  border-right: 1px solid #292929;
+}
+
+/* ------------------ Sidebar ----------------- */
+.sidebar h2 {
+  border-bottom: 1px solid #a3a3a3;
+  text-shadow: 0 1px 0 #555;
+}
+.sidebar tr.even,
+.sidebar tr.odd {
+  border-bottom: 1px solid #a3a3a3;
+}
+
+/* ----------------- Triptych ----------------- */
+
+#triptych-wrapper {
+  background: #333;
+  background: rgba(180, 180, 180, 0.08);
+  border-top: 1px solid #666;
+}
+#triptych h2 {
+  color: #fff;
+  text-shadow: 0 -1px 0 #151515;
+}
+#triptych .block {
+  border-bottom: 1px solid #666;
+}
+
+/* ------------------ Footer ------------------ */
+
+#footer-wrapper {
+  color: #c0c0c0;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.857em;
+}
+#footer-wrapper a {
+  color: #fcfcfc;
+  color: rgba(255, 255, 255, 0.8);
+}
+#footer-wrapper a:hover,
+#footer-wrapper a:focus {
+  color: #fefefe;
+  color: rgba(255, 255, 255, 0.95);
+}
+#footer-wrapper .block {
+  border: 1px solid #444;
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 20px 0;
+}
+#footer-columns h2 {
+  border-bottom: 1px solid #555;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+#footer-columns .content li a {
+  border-bottom: 1px solid #555;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+#footer-columns .content li.last a {
+  border-bottom: none;
+}
+#footer-columns .content li a:hover,
+#footer-columns .content li a:focus {
+  background-color: #1f1f21;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+#footer {
+  border-color: rgba(255, 255, 255, 0.15);
+  border-top: 1px solid #555;
+}
+#footer li a {
+  border-right: 1px solid #555; /* LTR */
+  border-color: rgba(255, 255, 255, 0.15);
+}
+#footer-wrapper tr.even {
+  background-color: #2c2c2c;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+#footer-columns .block-menu, #footer .block {
+  border: none;
+}
+
+/* --------------- System Tabs  --------------- */
+
+.tabs ul.primary {
+  background: transparent url(../images/tabs-border.png) repeat-x left bottom;
+}
+.tabs ul.primary li.active a {
+  border-bottom: 1px solid #292929;
+}
+.tabs ul.primary li a {
+  color: #ededed;
+  background-color: #333;
+  border-color: #666;
+  text-shadow: 0 1px 0 #000;
+}
+.tabs ul.primary li.active a {
+  background-color: #292929;
+}
+.tabs ul.secondary li a.active {
+  background: #333;
+  color: #d7d7d7;
+}
+ul.action-links li a {
+  background: url(../images/add.png) no-repeat left center;
+}
+
+/* ---------------- Messages  ----------------- */
+
+.featured #messages {
+  background: #f0f0f0;
+  background: rgba(30, 50, 10, 0.08);
+}
+
+/* ---------------- Buttons    ---------------- */
+
+input.form-submit,
+a.button {
+  background: #3a3a3a;
+  border: 1px solid #666;
+  border-bottom: 1px solid #777;
+  border-left-color: #525252;
+  border-right-color: #525252;
+  color: #fff;
+}
+a.button:link,
+a.button:visited,
+a.button:hover,
+a.button:focus,
+a.button:active {
+  color: #5a5a5a;
+}
+
+/* -------------- Form Elements   ------------- */
+
+fieldset {
+  background: #222;
+  border: 1px solid #777;
+}
+fieldset legend {
+  background: #454545;
+  border: 1px solid #888;
+  color: #fff;
+  text-shadow: 0 -1px 0 #232323;
+}
+fieldset legend a {
+  color: white;
+  text-shadow: 0 -1px 0 #232323;
+}
+fieldset legend a:hover,
+fieldset legend a:focus,
+fieldset legend a:active {
+  color: #ddd;
+}
+fieldset .fieldset-description {
+  color: #eee;
+}
+.resizable-textarea .grippie {
+  background-color: #444;
+  border: 1px solid #777;
+}
+input.form-text,
+textarea.form-textarea,
+select.form-select {
+  background: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
+input.form-submit:hover,
+input.form-submit:focus {
+  background: #333;
+}
+
+/* Disabled form elements */
+input.form-button-disabled,
+input.form-button-disabled:hover,
+input.form-button-disabled:focus,
+input.form-button-disabled:active,
+.form-disabled input,
+.form-disabled select,
+.form-disabled textarea {
+  background: #ededed;
+  border-color: #bbb;
+  color: #717171;
+}
+.form-disabled .grippie {
+  background-color: #ededed;
+  border-color: #bbb;
+}
+.form-disabled label {
+  color: #717171;
+}
+
+/* -------------- Other Overrides ------------- */
+
+.ui-widget-overlay {
+  background: #222;
+}
+
+/* --------------- Search Form ---------------- */
+
+#search-block-form input.form-submit,
+#search-form input.form-submit {
+  background: url(../images/search-button.png) no-repeat center top;
+  border-color: #323232 #424242;
+}
+
+/* --------------- Search Results ---------------- */
+.search-results li {
+  border-bottom: 1px solid #444;
+}
+.search-results li:last-child {
+  border-bottom: none;
+}
+
+/* ---------- Admin-specific Theming ---------- */
+
+.page-admin-structure-block-demo .block-region {
+  background: #ff6;
+  border: 1px dotted #9f9e00;
+  color: #000;
+}
+/* Configuration. */
+div.admin-panel {
+  background: #222;
+  border: 1px solid #444;
+}
+div.admin-panel dt {
+  border-top: 1px solid #666;
+}
+
+/* ---------- Overlay ----------- */
+
+#overlay-content {
+  background: #292929;
+  color: #EDEDED;
+}
+#overlay-tabs li.active a, #overlay-tabs li.active a.active, #overlay-tabs li.active a:active, #overlay-tabs li.active a:visited {
+  background-color: #292929;
+  color: #EDEDED;
+}
+
+/* ---------- Poll ----------- */
+
+.poll .bar .foreground {
+  background-color: #666;
+}
+#footer-wrapper .poll .bar {
+  background-color: #666;
+}
+#footer-wrapper .poll .bar .foreground {
+  background-color: #ddd;
+}
+
+/* ---------- Vertical tabs ----------- */
+
+div.vertical-tabs {
+  border: 1px solid #666;
+}
+.vertical-tabs ul.vertical-tabs-list {
+  border-color: #666;
+}
+.vertical-tabs ul.vertical-tabs-list li {
+  background: #222;
+  border: 1px solid #666;
+  border-top: none;
+}
+.vertical-tabs ul.vertical-tabs-list li.selected {
+  background-color: #292929;
+}
+.vertical-tabs ul.vertical-tabs-list .selected strong {
+  color: #ddd;
+}

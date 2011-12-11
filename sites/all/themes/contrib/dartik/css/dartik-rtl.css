@@ -1,0 +1,25 @@
+
+/* ------------------ Dartik RTL Overrides ------------------ */
+
+blockquote {
+  border-left: none;
+  border-right: 4px solid #afafaf;
+}
+
+.comment .comment-arrow {
+  background-image: url(../images/comment-arrow-rtl.gif);
+}
+
+ul.action-links li a {
+  background: url(../images/add.png) no-repeat right center;
+}
+
+ul li.collapsed {
+  list-style-image: url(../images/menu-collapsed-rtl.png);
+}
+
+#footer li a {
+  border-color: rgba(255, 255, 255, 0.15);
+  border-left: 1px solid #555;
+  border-right: none;
+}
