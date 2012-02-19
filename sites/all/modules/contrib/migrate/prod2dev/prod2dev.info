@@ -1,0 +1,20 @@
+name = "Migrate prod2dev"
+description = "Module to migrate Nodes, Comments, Taxonomy & Users from dug.lv to dev.dug.lv (and then will overwrite prod DB with dev)"
+package = "Development"
+core = 7.x
+dependencies[] = migrate
+;dependencies[] = migrate_extras
+dependencies[] = field
+dependencies[] = file
+dependencies[] = image
+;dependencies[] = number
+dependencies[] = text
+dependencies[] = options
+dependencies[] = taxonomy
+;dependencies[] = date
+;dependencies[] = media
+
+files[] = move2drupal_user.inc
+;files[] = move2drupal_forum.inc
+;files[] = move2drupal_gallery.inc
+;files[] = move2drupal_roles.inc

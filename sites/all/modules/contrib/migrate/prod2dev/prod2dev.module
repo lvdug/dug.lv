@@ -1,0 +1,15 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: z3cka
+ * Date: 2/18/12
+ * Time: 12:14 AM
+ * To change this template use File | Settings | File Templates.
+ */
+
+function prod2dev_migrate_api() {
+  $api = array(
+    'api' => 2,
+  );
+  return $api;
+}
