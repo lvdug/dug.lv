@@ -1,5 +1,5 @@
 body {
-    background: #000 url( images/Las_Vegas_skyline.png ) no-repeat center top;
+    background: #000 url( images/Las_Vegas_skyline.jpg ) repeat-x;
 }
 #page-wrapper, #page, #main-wrapper {
     background: none;

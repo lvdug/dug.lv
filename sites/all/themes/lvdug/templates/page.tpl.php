@@ -4,8 +4,7 @@
       <div class="section clearfix">
 
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-<!--        --><?php //print $logo ?>
+        <img src="<?php print url() . path_to_theme() . '/' ?>logo.png" alt="<?php print t('Home'); ?>" />
       </a>
 
     <?php print render($page['header']); ?>
