@@ -14,6 +14,9 @@ dependencies[] = taxonomy
 ;dependencies[] = date
 ;dependencies[] = media
 
+files[] = ProdNodeMigration.inc
+files[] = prodUserMigration.inc
+
 files[] = move2drupal_user.inc
 ;files[] = move2drupal_forum.inc
 ;files[] = move2drupal_gallery.inc
